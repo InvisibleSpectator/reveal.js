@@ -1,49 +1,609 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <title>reveal.js</title>
+    
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="lib/css/style.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/monokai.css">
 
-		<script src="js/reveal.js"></script>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+<body>
+
+    <div class="theme-font-quicksand theme-color-cobalt-orange" style="width: 100%; height: 100%;">
+        <div class="reveal">
+            <div class="slides">
+                <section data-transition="zoom">
+                    <div class="sl-block" data-block-type="text"
+                        style="height: auto; min-width: 30px; min-height: 30px; width: 703px; left: 129px; top: 70px;">
+                        <div class="sl-block-content" style="z-index: 11; border-width: 1px; text-align: center;">
+                            <h1>Information carriers</h1>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image"
+                        style="min-width: 4px; min-height: 4px; width: 806px; height: 265px; left: 107px; top: 303px;">
+                        <div class="sl-block-content" style="z-index: 12;"><img style="" data-natural-width="1442"
+                                data-natural-height="474" data-lazy-loaded=""
+                                data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1207097/images/6840912/Безымянный.png">
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text"
+                        style="width: 803px; left: 80px; top: 43px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h1><span style="font-size:0.7em">Classification according to the method of reading</span>
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                        style="width: 806px; left: 80px; top: 303px; height: auto;"><a class="sl-block-style"
+                            style="z-index: 11;" target="_top">
+                            <div class="sl-block-content" style="z-index: 11;">
+                                <ul>
+                                    <li>
+                                        <h2>human readable</h2>
+                                    </li>
+                                    <li>
+                                        <h2>mashine readable</h2>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a></div>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text"
+                        style="width: 413px; left: 29px; top: 84px; height: auto;">
+                        <div class="sl-block-content" style="text-align: left; z-index: 11; color: rgb(255, 255, 255);">
+                            <h2>HUMAN READABLE</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                        style="width: 413px; left: 29px; top: 243px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 13; text-align: left;">
+                            <p>From people for other people</p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image"
+                        style="min-width: 4px; min-height: 4px; width: 614px; height: 409px; left: 346px; top: 280px;">
+                        <div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="2025"
+                                data-natural-height="1350" data-lazy-loaded=""
+                                data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1207097/images/6851940/pasted-from-clipboard.png">
+                        </div>
+                    </div>
+                </section>
+                <section class="stack">
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 806px; left: 77px; top: 282px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 11;">
+                                <h2><strong><span style="font-size:1.4em">pictured</span></strong></h2>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 84px; height: auto;">
+                            <div class="sl-block-content" style="text-align: left; z-index: 11;">
+                                <h2>fine art</h2>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 158px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 12; text-align: left;">
+                                <p>All pictures of humanity allow to Express ideas, and therefore store information.
+                                    Paintings, drawings, photos, videos - everything that is directly for viewing by a
+                                    person.</p>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="min-width: 4px; min-height: 4px; width: 276px; height: 399px; left: 442px; top: 280px;">
+                            <div class="sl-block-content" style="z-index: 13;"><img style="" data-natural-width="700"
+                                    data-natural-height="1012" data-lazy-loaded=""
+                                    data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1207097/images/6850542/pasted-from-clipboard.png">
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="min-width: 4px; min-height: 4px; width: 411px; height: 308px; left: 534px; top: 92px;">
+                            <div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="640"
+                                    data-natural-height="480" data-lazy-loaded=""
+                                    data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1207097/images/6850552/pasted-from-clipboard.png">
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="min-width: 4px; min-height: 4px; width: 392px; height: 257px; left: 29px; top: 443px;">
+                            <div class="sl-block-content" style="z-index: 15;"><img style="" data-natural-width="800"
+                                    data-natural-height="525" data-lazy-loaded=""
+                                    data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1207097/images/6850753/pasted-from-clipboard.png">
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section class="stack">
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 806px; left: 77px; top: 282px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 10;">
+                                <h2><strong><span style="font-size:1.4em">written</span></strong></h2>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 84px; height: auto;">
+                            <div class="sl-block-content" style="text-align: left; z-index: 10;">
+                                <h2>Books</h2>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 396px; left: 29px; top: 158px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 12; text-align: left;">
+                                <p>All types of book in what people write their thoughts. Stones, wood, clay, wax,
+                                    leathet, paper. Everything&nbsp; fits if you can scratch on it.</p>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="min-width: 4px; min-height: 4px; width: 518px; height: 361px; left: 442px; top: 170px;">
+                            <div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="600"
+                                    data-natural-height="418" data-lazy-loaded=""
+                                    data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1207097/images/6850206/pasted-from-clipboard.png">
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section class="stack">
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 806px; left: 77px; top: 282px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 10;">
+                                <h2><strong><span style="font-size:1.4em">Other</span></strong></h2>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 454px; left: 29px; top: 121px; height: auto;">
+                            <div class="sl-block-style" style="z-index: 10; transform: rotate(360deg);">
+                                <div class="sl-block-content" style="text-align: left; z-index: 10;">
+                                    <h2>Exotic books</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 232px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 12; text-align: left;">
+                                <p>Traditionaly people used to write something some types of codes, written on something
+                                    flat. But some Nations have probably come to the conclusion that it is too simple.
+                                </p>
+
+                                <p>They uses nodes on wool strings to code something.</p>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="width: 451px; height: 274px; left: 483px; top: 252px; min-width: 4px; min-height: 4px;">
+                            <div class="sl-block-content" style="z-index: 11;"><img data-natural-width="625"
+                                    data-natural-height="380" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Inca_Quipu.jpg"></div>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text"
+                        style="width: 413px; left: 29px; top: 84px; height: auto;">
+                        <div class="sl-block-content" style="text-align: left; z-index: 11;">
+                            <h2>Mashine readable</h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                        style="width: 413px; left: 29px; top: 232px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 13; text-align: left;">
+                            <p>From people to machines</p>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="image"
+                        style="min-width: 4px; min-height: 4px; width: 532px; height: 398px; left: 422px; top: 294px;">
+                        <div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="809"
+                                data-natural-height="606" data-lazy-loaded=""
+                                data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1207097/images/6852068/pasted-from-clipboard.png">
+                        </div>
+                    </div>
+                </section>
+                <section class="stack">
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 806px; left: 77px; top: 224px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 11;">
+                                <h2 style=""><strong><span style="font-size:1.4em">MECHANICAL</span></strong></h2>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="text"
+                            style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 180px; top: 331px;">
+                            <div class="sl-block-content" style="z-index: 12;">
+                                <p>All types of storage devices, which can be read without electricity (maybe it may not
+                                    be what you want, but still)</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 435px; left: 29px; top: 119px; height: auto;">
+                            <div class="sl-block-content" style="text-align: left; z-index: 10;">
+                                <h1 style="font-size:1.8em">Punched Tape</h1>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 34px; top: 189px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 12; text-align: left;">
+                                <p>Was used for making programming patterns on Jacquard machine in 1804.</p>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="width: 366px; height: 490px; left: 560px; top: 140px; min-width: 4px; min-height: 4px;">
+                            <div class="sl-block-content" style="z-index: 11;"><img data-natural-width="249"
+                                    data-natural-height="333" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/0/09/Jacquard.loom.cards.jpg?uselang=ru">
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 429px; left: 29px; top: 119px; height: auto;">
+                            <div class="sl-block-content" style="text-align: left; z-index: 10;">
+                                <h1 style="font-size:1.8em">Punched tape</h1>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 189px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 12; text-align: left;">
+                                <p>Evolutionary continuation of the punch card. First usage possible was in Player piano
+                                    in 1887.</p>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="width: 451px; height: 338px; left: 480px; top: 181px; min-width: 4px; min-height: 4px;">
+                            <div class="sl-block-content" style="z-index: 11;"><img data-natural-width="1024"
+                                    data-natural-height="768" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/PlayerPianoRoll.jpg/1024px-PlayerPianoRoll.jpg">
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 84px; height: auto;">
+                            <div class="sl-block-content" style="text-align: left; z-index: 10;">
+                                <h2>Vibration recording</h2>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 232px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 12; text-align: left;">
+                                <p>A lot of kindes of devises for vibration recordings like phonograph wax
+                                    cylinders.&nbsp;</p>
+
+                                <p>First units that allows to store any types of information (yes, video, photo and
+                                    programms too).&nbsp;</p>
+
+                                <p>Modulation give wide field to usage of it.</p>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="width: 68px; height: 630px; left: 480px; top: 35px; min-width: 4px; min-height: 4px;">
+                            <div class="sl-block-content" style="z-index: 11;"><img data-natural-width="83"
+                                    data-natural-height="764" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Phonautogram_-_Scott_1859.jpg">
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="min-width: 4px; min-height: 4px; width: 212px; height: 385px; left: 560px; top: 35px;">
+                            <div class="sl-block-content" style="z-index: 15;"><img data-natural-width="800"
+                                    data-natural-height="1452" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Schellackplatte_1908.jpg/800px-Schellackplatte_1908.jpg">
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="min-width: 4px; min-height: 4px; width: 363px; height: 388px; left: 597px; top: 304px;">
+                            <div class="sl-block-content" style="z-index: 14;"><img data-natural-width="600"
+                                    data-natural-height="641" style="" data-lazy-loaded=""
+                                    data-src="https://cs8.pikabu.ru/post_img/2016/06/26/10/1466960892244897231.jpg">
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 496px; left: 29px; top: 121px; height: auto;">
+                            <div class="sl-block-content" style="text-align: left; z-index: 11;">
+                                <h2>punched card &amp; punched tape</h2>
+
+                                <p>(another yet)</p>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 433px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 13; text-align: left;">
+                                <p>In 50's evolution has taken a new turn. Punched cards was used for programming.
+                                    Again. Now for commutating circuits.</p>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="width: 451px; height: 301px; left: 480px; top: 399px; min-width: 4px; min-height: 4px;">
+                            <div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1280"
+                                    data-natural-height="853" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/PaperTapes-5and8Hole.jpg/1280px-PaperTapes-5and8Hole.jpg">
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="min-width: 4px; min-height: 4px; width: 334px; height: 445px; left: 626px; top: 0px;">
+                            <div class="sl-block-content" style="z-index: 14;"><img data-natural-width="800"
+                                    data-natural-height="1067" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Harvard_Mark_I_program_tape.agr.jpg/800px-Harvard_Mark_I_program_tape.agr.jpg">
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section class="stack">
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 854px; left: 53px; top: 228px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 11;">
+                                <h2><strong><span style="font-size:1.4em">elecromechanical</span></strong></h2>
+                            </div>
+                        </div>
+
+                        <div class="sl-block" data-block-type="text"
+                            style="height: auto; min-width: 30px; min-height: 30px; width: 835px; left: 56px; top: 331px;">
+                            <div class="sl-block-content" style="z-index: 13;">
+                                <p>Mostly electrical, but not without mechanics.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 84px; height: auto;">
+                            <div class="sl-block-content" style="text-align: left; z-index: 11;">
+                                <h2>Magnetic storage</h2>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 232px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 13; text-align: left;">
+                                <p>Second type of storage units, which can store all types of information. The most
+                                    capacious. And the longest-used. We all use it as harddrive.</p>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="width: 451px; height: 408px; left: 442px; top: 6px; min-width: 4px; min-height: 4px;">
+                            <div class="sl-block-content" style="z-index: 12;"><img data-natural-width="800"
+                                    data-natural-height="723" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Peirce_wire_recorder.jpg/800px-Peirce_wire_recorder.jpg">
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="min-width: 4px; min-height: 4px; width: 452px; height: 301px; left: 501px; top: 299px;">
+                            <div class="sl-block-content" style="z-index: 14;"><img data-natural-width="1280"
+                                    data-natural-height="853" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Cassette_DAT-130311-0002WP.jpg/1280px-Cassette_DAT-130311-0002WP.jpg">
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="min-width: 4px; min-height: 4px; width: 280px; height: 214px; left: 266px; top: 486px;">
+                            <div class="sl-block-content" style="z-index: 15;"><img data-natural-width="220"
+                                    data-natural-height="168" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Laptop-hard-drive-exposed.jpg/220px-Laptop-hard-drive-exposed.jpg">
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section class="stack">
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 806px; left: 90px; top: 228px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 11;">
+                                <h2><strong><span style="font-size:1.4em">optical</span></strong></h2>
+                            </div>
+                        </div>
+
+                        <div class="sl-block" data-block-type="text"
+                            style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 193px; top: 331px;">
+                            <div class="sl-block-content" style="z-index: 13;">
+                                <p>About light, mechanics and electricity</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 84px; height: auto;">
+                            <div class="sl-block-content" style="text-align: left; z-index: 10;">
+                                <h2>modulated recording</h2>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 232px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 12; text-align: left;">
+                                <p>One of first techlologies for sounded films. Based on optical modulating of sound
+                                    waves on film stock. Due to the modulation theoreticaly can store everything.</p>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="width: 509px; height: 630px; left: 451px; top: 35px; min-width: 4px; min-height: 4px;">
+                            <div class="sl-block-content" style="z-index: 11;"><img style="" data-natural-width="800"
+                                    data-natural-height="990" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Optical-film-soundtrack.svg/800px-Optical-film-soundtrack.svg.png">
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 84px; height: auto;">
+                            <div class="sl-block-content" style="text-align: left; z-index: 11;">
+                                <h2>optical disc</h2>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 158px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 13; text-align: left;">
+                                <p>One of the shortest lived storage units. They was invented in 60's and forgotten in
+                                    10's. But it most the longest-lasting unit.&nbsp;</p>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="width: 451px; height: 159px; left: 480px; top: 84px; min-width: 4px; min-height: 4px;">
+                            <div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1920"
+                                    data-natural-height="676" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Lichttonorgelversuchsscheibe.jpg/1920px-Lichttonorgelversuchsscheibe.jpg">
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="min-width: 4px; min-height: 4px; width: 574px; height: 287px; left: 386px; top: 413px;">
+                            <div class="sl-block-content" style="z-index: 14;"><img data-natural-width="1920"
+                                    data-natural-height="960" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Comparison_CD_DVD_HDDVD_BD.svg/1920px-Comparison_CD_DVD_HDDVD_BD.svg.png">
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 22px; top: 84px; height: auto;">
+                            <div class="sl-block-content" style="text-align: left; z-index: 11;">
+                                <h2>Barcodes</h2>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 158px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 12; text-align: left;">
+                                <p>Can used to store only text, but we can not image modern world without this small
+                                    black and white pictures.&nbsp;</p>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="min-width: 4px; min-height: 4px; width: 300px; height: 300px; left: 565px; top: 106px;">
+                            <div class="sl-block-content" style="z-index: 13;"><img data-natural-width="300"
+                                    data-natural-height="300" style="" data-lazy-loaded=""
+                                    data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1207097/images/6849887/chart.png">
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section class="stack">
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 806px; left: 77px; top: 42px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 11;">
+                                <h2><strong><span style="font-size:1.4em">electrical</span></strong></h2>
+                            </div>
+                        </div>
+
+                        <div class="sl-block" data-block-type="text"
+                            style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 181px; top: 611px;">
+                            <div class="sl-block-content" style="z-index: 13;">
+                                <p>Celebration of semiconductors.</p>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="min-width: 4px; min-height: 4px; width: 621px; height: 409px; left: 170px; top: 188px;">
+                            <div class="sl-block-content" style="z-index: 14;"><img style="" data-natural-width="621"
+                                    data-natural-height="409" data-lazy-loaded=""
+                                    data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/1207097/images/6851884/pasted-from-clipboard.png">
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 413px; left: 29px; top: 84px; height: auto;">
+                            <div class="sl-block-content" style="text-align: left; z-index: 11;">
+                                <h2>rom &amp; ram</h2>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="text"
+                            style="width: 439px; left: 29px; top: 178px; height: auto;">
+                            <div class="sl-block-content" style="z-index: 13; text-align: left;">
+                                <p>Top of humankinds ingenuity. Many types of chips. So identical and so different.</p>
+
+                                <p>EEPROM, NVRAM, PROM, FLASH etc. So complex and so fragile.</p>
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="width: 407px; height: 173px; left: 502px; top: 0px; min-width: 4px; min-height: 4px;">
+                            <div class="sl-block-content" style="z-index: 12;"><img data-natural-width="407"
+                                    data-natural-height="173" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/b/b9/D23128C_PROM.jpg">
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="min-width: 4px; min-height: 4px; width: 428px; height: 223px; left: 491px; top: 180px;">
+                            <div class="sl-block-content" style="z-index: 14;"><img data-natural-width="1275"
+                                    data-natural-height="665" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/3/39/EPROM_Intel_C1702A.jpg">
+                            </div>
+                        </div>
+                        <div class="sl-block" data-block-type="image"
+                            style="min-width: 4px; min-height: 4px; width: 357px; height: 272px; left: 583px; top: 420px;">
+                            <div class="sl-block-content" style="z-index: 15;"><img data-natural-width="500"
+                                    data-natural-height="381" style="" data-lazy-loaded=""
+                                    data-src="https://upload.wikimedia.org/wikipedia/commons/b/b5/IC_DIP_chips.JPG">
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <div class="sl-block" data-block-type="text"
+                        style="width: 806px; left: 77px; top: 189px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 10;">
+                            <h2><strong>conclusion</strong></h2>
+                        </div>
+                    </div>
+                    <div class="sl-block" data-block-type="text"
+                        style="width: 806px; left: 77px; top: 280px; height: auto;">
+                        <div class="sl-block-content" style="z-index: 11;">
+                            <ul>
+                                <li>as a carrier of information can be anything</li>
+                                <li>history is cyclical and returns to its origins</li>
+                                <li>stone is still the best storage</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+
+    <script>
+        // More info about config & dependencies:
+        // - https://github.com/hakimel/reveal.js#configuration
+        // - https://github.com/hakimel/reveal.js#dependencies
+        Reveal.initialize(
+            {
+                width: 960,
+                height: 700,
+                transition: "zoom",
+                backgroundTransition: "slide ",
+                center: false,
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true }
+                ]
+            });
+    </script>
+</body>
+
 </html>
